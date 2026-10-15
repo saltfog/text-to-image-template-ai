@@ -1,7 +1,7 @@
 export default {
 	async fetch(_request: Request, env: Env): Promise<Response> {
 		const inputs = {
-			prompt: "trout",
+			prompt: "divorce",
 		} satisfies AiTextToImageInput;
 
 		const response =
